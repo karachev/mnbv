@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+a {
+  text-decoration: none;
+
+}
+
+.logo {
+  padding-top: 10px;
+  width: 234px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+
+  width: 100%;
+
+}
+
+.inner_foot a {
+  color: #666;
+
+}
+
+.inner_foot p {
+  margin-top: 8px;
+  font-size: 10px;
+  color: #999;
+}
+
+.picture img {
+  width: 550px;
+}
+
+.form {
+  border: 1px solid #e0e0e0;
+  float: right;
+  width: 268px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.action {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 850px;
+  margin: 30px auto;
+}
+
+.action:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.button {
+  width: 236px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 20px;
+  min-width: 96px;
+  height: 32px;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: 0;
+  font: 400 20px Arial;
+  color: #fff;
+  text-align: center;
+  background-color: #eba200;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.text {
+  width: 236px;
+  height: 32px;
+  margin: 0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  line-height: 17px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form_l {
+  margin-top: 16px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  line-height: 18px;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+.form_p {
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  line-height: 18px;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+.head_auth {
+  color: #333;
+  font-family: Arial;
+  font-size: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 12px;
+
+}
+
+.txt p {
+  padding: 10px;
+  padding-top: 60px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.txt span {
+  color: #eb722e;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.footer-info {
+  width: 300px;
+}
